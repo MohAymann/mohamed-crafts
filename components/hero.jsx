@@ -20,7 +20,7 @@ export default function Hero() {
             />
 
             {/* Atmospheric Glow Anchor - Increased Opacity */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-indigo-500/30 blur-[100px] rounded-full -z-30 dark:bg-indigo-500/20 mix-blend-normal" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-150 bg-indigo-500/30 blur-[100px] rounded-full -z-30 dark:bg-indigo-500/20 mix-blend-normal" />
 
             <div className="container relative mx-auto px-4 md:px-6 flex flex-col items-center text-center z-10">
 
@@ -67,13 +67,13 @@ export default function Hero() {
                 >
                     <button className="group relative inline-flex items-center justify-center gap-2 px-8 py-3 text-base font-medium text-primary-foreground bg-primary rounded-full overflow-hidden transition-all hover:shadow-lg hover:shadow-primary/25">
                         <div className="absolute inset-0 bg-linear-to-r from-transparent via-white/20 to-transparent translate-x-full group-hover:translate-x-full transition-transform duration-700" />
-                        <span>View My Work</span>
+                        <a href="#projects">View My Work</a>
                         <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
                     </button>
 
                     <button className="inline-flex items-center justify-center gap-2 px-8 py-3 text-base font-medium text-foreground bg-secondary/50 backdrop-blur-sm border border-border rounded-full hover:bg-secondary/80 transition-colors">
                         <Mail className="w-4 h-4" />
-                        <span>Contact me</span>
+                        <a href="#contact">Contact me</a>
                     </button>
                 </motion.div>
             </div>

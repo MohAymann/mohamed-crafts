@@ -21,14 +21,14 @@ export default function Contact() {
 
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-in fade-in slide-in-from-bottom-4 duration-500 delay-200 fill-mode-both">
                     <Button size="lg" className="h-12 px-8 rounded-full text-base group" asChild>
-                        <a href="mailto:mohammed.ayman152433@gmail.com">
+                        <a href="mailto:mohammed.ayman152433@gmail.com" target="_blank">
                             <Mail className="mr-2 h-4 w-4 group-hover:scale-110 transition-transform" />
                             Say Hello
                         </a>
                     </Button>
 
                     <Button variant="outline" size="lg" className="h-12 px-8 rounded-full text-base hover:bg-muted/50 transition-colors" asChild>
-                        <a href="https://github.com/mohdragon010" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/MohAymann" target="_blank" rel="noopener noreferrer">
                             <Github className="mr-2 h-4 w-4" />
                             GitHub
                         </a>

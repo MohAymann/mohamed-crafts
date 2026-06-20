@@ -10,7 +10,7 @@ export default function Skills() {
         {
             category: "Frontend Core",
             icon: <Code className="w-5 h-5" />,
-            items: ["HTML5", "CSS3", "JavaScript (ES6+)", "React", "Next.js"],
+            items: ["HTML", "CSS", "JavaScript", "React", "Next.js"],
             color: "text-blue-500",
             bgHover: "hover:bg-blue-500/5",
             borderHover: "hover:border-blue-500/50",
@@ -19,16 +19,31 @@ export default function Skills() {
         {
             category: "Styling & UI",
             icon: <Palette className="w-5 h-5" />,
-            items: ["Tailwind CSS", "Shadcn UI", "Framer Motion", "MUI", "Responsive Design"],
+            items: ["Tailwind CSS", "Shadcn UI", "Material UI", "Responsive Design"],
             color: "text-purple-500",
             bgHover: "hover:bg-purple-500/5",
             borderHover: "hover:border-purple-500/50",
             badgeHover: "group-hover/card:bg-purple-500/10 group-hover/card:text-purple-500",
         },
         {
+<<<<<<< HEAD
             category: "Tools & DevOps",
             icon: <GitGraph className="w-5 h-5" />,
             items: ["Git", "GitHub", "Vercel", "Firebase", "Firestore","Zustand"],
+=======
+            category: "State & Logic",
+            icon: <Zap className="w-5 h-5" />,
+            items: ["Zustand", "API routes", "Mongo DB"],
+            color: "text-yellow-500",
+            bgHover: "hover:bg-yellow-500/5",
+            borderHover: "hover:border-yellow-500/50",
+            badgeHover: "group-hover/card:bg-yellow-500/10 group-hover/card:text-yellow-500",
+        },
+        {
+            category: "Tools & DevOps",
+            icon: <GitGraph className="w-5 h-5" />,
+            items: ["Git", "GitHub", "Vercel", "Postman"],
+>>>>>>> 4c3e2ec (links fixing)
             color: "text-green-500",
             bgHover: "hover:bg-green-500/5",
             borderHover: "hover:border-green-500/50",
@@ -39,8 +54,8 @@ export default function Skills() {
     return (
         <section id="skills" className="relative w-full py-24 md:py-32 bg-background flex flex-col items-center overflow-hidden">
             {/* Background Gradients */}
-            <div className="absolute top-1/2 left-0 -translate-y-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-primary/5 blur-[100px] rounded-full pointer-events-none" />
-            <div className="absolute bottom-0 right-0 translate-y-1/3 translate-x-1/3 w-[500px] h-[500px] bg-secondary/20 blur-[100px] rounded-full pointer-events-none" />
+            <div className="absolute top-1/2 left-0 -translate-y-1/2 -translate-x-1/2 w-125 h-125 bg-primary/5 blur-[100px] rounded-full pointer-events-none" />
+            <div className="absolute bottom-0 right-0 translate-y-1/3 translate-x-1/3 w-125 h-125 bg-secondary/20 blur-[100px] rounded-full pointer-events-none" />
 
             <div className="container relative px-4 md:px-6 max-w-6xl z-10">
                 <div className="flex flex-col items-center text-center mb-16">

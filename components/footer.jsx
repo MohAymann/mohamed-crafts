@@ -24,7 +24,7 @@ export default function Footer() {
                         </p>
                         <div className="flex items-center gap-4">
                             <Button variant="outline" size="icon" asChild className="rounded-full hover:border-primary/50 hover:bg-primary/5 hover:text-primary transition-all">
-                                <a href="https://github.com/mohdragon010" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/MohAymann" target="_blank" rel="noopener noreferrer">
                                     <Github className="w-5 h-5" />
                                     <span className="sr-only">GitHub</span>
                                 </a>
@@ -42,7 +42,7 @@ export default function Footer() {
                                 </a>
                             </Button>
                             <Button variant="outline" size="icon" asChild className="rounded-full hover:border-red-500/50 hover:bg-red-500/5 hover:text-red-500 transition-all">
-                                <a href="mailto:mohammed.ayman152433@gmail.com">
+                                <a href="mailto:mohammed.ayman152433@gmail.com" target="_blank">
                                     <Mail className="w-5 h-5" />
                                     <span className="sr-only">Email</span>
                                 </a>
@@ -82,7 +82,7 @@ export default function Footer() {
                             Currently open to new opportunities and collaborations. Have a project in mind?
                         </p>
                         <Button size="lg" className="w-full sm:w-auto rounded-full group">
-                            <a href="mailto:mohammed.ayman152433@gmail.com" className="flex items-center gap-2">
+                            <a href="mailto:mohammed.ayman152433@gmail.com" target="_blank" className="flex items-center gap-2">
                                 Say Hello
                                 <Mail className="w-4 h-4 group-hover:rotate-12 transition-transform" />
                             </a>
