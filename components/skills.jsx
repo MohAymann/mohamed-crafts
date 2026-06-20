@@ -26,11 +26,6 @@ export default function Skills() {
             badgeHover: "group-hover/card:bg-purple-500/10 group-hover/card:text-purple-500",
         },
         {
-<<<<<<< HEAD
-            category: "Tools & DevOps",
-            icon: <GitGraph className="w-5 h-5" />,
-            items: ["Git", "GitHub", "Vercel", "Firebase", "Firestore","Zustand"],
-=======
             category: "State & Logic",
             icon: <Zap className="w-5 h-5" />,
             items: ["Zustand", "API routes", "Mongo DB"],
@@ -43,7 +38,6 @@ export default function Skills() {
             category: "Tools & DevOps",
             icon: <GitGraph className="w-5 h-5" />,
             items: ["Git", "GitHub", "Vercel", "Postman"],
->>>>>>> 4c3e2ec (links fixing)
             color: "text-green-500",
             bgHover: "hover:bg-green-500/5",
             borderHover: "hover:border-green-500/50",
