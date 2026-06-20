@@ -7,7 +7,7 @@ export default function Contact() {
     return (
         <section className="py-24 md:py-32 relative overflow-hidden" id="contact">
             {/* Background Gradients */}
-            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-primary/5 rounded-full blur-[100px] -z-10" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-125 h-125 bg-primary/5 rounded-full blur-[100px] -z-10" />
 
             <div className="container px-4 md:px-6 mx-auto max-w-3xl text-center">
                 <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-6 bg-clip-text text-transparent bg-linear-to-b from-foreground to-foreground/70">

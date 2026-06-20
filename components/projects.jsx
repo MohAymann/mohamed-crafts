@@ -4,11 +4,6 @@ import ProjectCard from "./project-card"
 import ProjectModal from "./projectModal"
 
 const projects = [
-<<<<<<< HEAD
-  {
-    id: "vertex",
-    title: "Vertex – Team Management Reimagined",
-=======
     {
         id: "ketra",
         title: "Ketra – Study Dashboard",
@@ -72,7 +67,6 @@ const projects = [
     {
     id: "smart-product-dashboard",
     title: "Smart Product Dashboard",
->>>>>>> 4c3e2ec (links fixing)
     description:
       "A modern team collaboration platform featuring workspaces, projects, tasks, and real-time team chat with smart notifications.",
     longDescription:
@@ -98,13 +92,8 @@ const projects = [
       "Cloudinary",
       "Framer Motion",
     ],
-<<<<<<< HEAD
-    liveUrl: "https://vertex-team.vercel.app",
-    githubUrl: "https://github.com/mohdragon010/vertex",
-=======
     liveUrl: "https://smart-product-dashboard.vercel.app",
     githubUrl: "https://github.com/MohAymann/smart-product-dashboard",
->>>>>>> 4c3e2ec (links fixing)
     status: "Completed",
     type: "Personal Project",
     image: "@/public/vertex.png",
