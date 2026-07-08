@@ -97,7 +97,7 @@ export default function Footer() {
                         © {currentYear} Mohamed Crafts. All rights reserved.
                     </p>
                     <p className="flex items-center gap-1.5">
-                        Made with <Heart className="w-4 h-4 text-red-500 fill-red-500 animate-pulse" /> using Next.js
+                        Crafted by mohamed using Next.js
                     </p>
                 </div>
             </div>
