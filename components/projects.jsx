@@ -97,6 +97,39 @@ const projects = [
     type: "Personal Project",
     image: "@/public/base-store.png",
   },
+  {
+    id: "ma7l",
+    title: "Ma7l (محل) – Modern POS & Inventory Management",
+    description:
+      "A modern Point of Sale and inventory management system with barcode scanning, real-time analytics, thermal receipt printing, and smart stock tracking.",
+    longDescription:
+      "Ma7l is a production-ready Point of Sale (POS) and inventory management platform built for small and medium-sized businesses. It combines a fast checkout experience with barcode scanning, intelligent inventory management, sales analytics, and thermal receipt printing. The application emphasizes performance, security, and an Arabic-first user experience, while providing real-time business insights and a streamlined workflow for merchants.",
+    features: [
+      "Fast POS system with hardware and camera-based barcode scanning",
+      "Automatic stock deduction with real-time inventory tracking",
+      "Comprehensive sales history with invoice details and filtering",
+      "Thermal receipt generation optimized for 80mm printers",
+      "Business analytics dashboard with revenue, profit, and sales insights",
+      "Low-stock alerts and category-based inventory management",
+      "Secure JWT authentication with email verification and bcrypt encryption",
+      "Responsive Arabic-first interface built for desktop, tablet, and mobile",
+      "Production-ready architecture with MongoDB and scalable backend design",
+    ],
+    techStack: [
+      "Next.js",
+      "MongoDB",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "JWT",
+      "Nodemailer",
+      "html5-qrcode",
+    ],
+    liveUrl: "https://ma7l.vercel.app",
+    githubUrl: "https://github.com/MohAymann/Ma7l",
+    status: "Completed",
+    type: "Personal Project",
+    image: "@/public/ma7l.png",
+  },
 ];
 
 
